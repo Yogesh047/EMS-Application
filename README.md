@@ -53,7 +53,12 @@ Remove an employee: DELETE "/{id}"
 Get Employee by department: GET "/department/{department}"
 Sort Employee by Joining Date: GET "/sorted"
 
-7. Docker (Optional)
+7. API Documentation
+Swagger: Access the Swagger UI and api-docs
+localhost:8080/v2/api-docs
+localhost:8080/swagger-ui/
+
+8. Docker (Optional)
 Docker file added in git.
 
 docker build -t EMS .
